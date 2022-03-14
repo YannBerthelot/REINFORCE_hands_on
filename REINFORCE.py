@@ -8,6 +8,9 @@ from agent import Agent
 # The network we create and the device to run it on
 from network import PolicyNetwork, device
 
+# For display purposes
+from utils import wrap_env
+
 # Numpy
 import numpy as np
 
@@ -237,6 +240,9 @@ class REINFORCE(Agent):
             nb_episodes (int): Number of test episodes
             render (bool, optional): Wether or not to render the visuals of the episodes while testing. Defaults to False.
         """
+
+        # For display purposes
+        env = wrap_env(env)
 
         # Iterate over the episodes
         for episode in range(nb_episodes):
