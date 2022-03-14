@@ -11,7 +11,7 @@ class Config:
     # AGENT
     GAMMA = 0.99
     NB_EPISODES_PER_EPOCH = 1
-    NB_EPOCH = 2000
+    NB_EPOCH = 200
     NB_EPISODES_TEST = 10
     MODEL_PATH = "models"
 
