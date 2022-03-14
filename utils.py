@@ -8,14 +8,9 @@ import gym
 from gym.wrappers import Monitor
 from typing import Callable
 from IPython.display import HTML
-from pyvirtualdisplay import Display
 from IPython import display as ipythondisplay
 from IPython.display import clear_output
 import matplotlib.pyplot as plt
-
-
-display = Display(visible=0, size=(1400, 900))
-display.start()
 
 
 def show_video():

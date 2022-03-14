@@ -62,6 +62,7 @@ class PolicyNetwork(nn.Module):
         # TO IMPLEMENT #
         ################
         # Forward pass of the state representation through the network to get logits
+        state = state.float()
         logits = ...
 
         # Softmax over the logits to get action probabilities
