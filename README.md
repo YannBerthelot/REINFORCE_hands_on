@@ -8,3 +8,5 @@ The goal of this hands-on is to fill in the code to implement the vanilla REINFO
 Estimated time approx. 3 hours.
 
 Author : Yann Berthelot
+
+Example of solution will be available after the Hands-On is finished.
